@@ -1,0 +1,98 @@
+.logo {
+    width: 35px;
+    height: 40px;
+    background-size: 125px 50px;
+    float: left;
+}
+.logo-text{
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+
+.social-icon {
+    padding: 10px 10px;
+    border: 0.1em solid white;
+    border-radius: 50%;
+    color: white;
+    height: 47px;
+    width: 47px;
+}
+
+.social-icon:hover {
+    color: #13d871;
+    border: 0.1em solid #13d871;
+    cursor: pointer;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-width {
+        min-width: 150px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .btn-width {
+        min-width: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .btn-width {
+        min-width: 150px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .btn-width {
+        min-width: 170px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .btn-width {
+        min-width: 200px;
+    }
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logos {
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logos {
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logos {
+
+    }
+}
+
+.btn-1 {
+    background-color: #1DDB79 !important;
+    padding: 15px 25px !important;
+    border-radius: 30px !important;
+}
+
+.btn-2 {
+    background-color: #FF007A !important;
+    padding: 15px 25px !important;
+    border-radius: 30px !important;
+}
