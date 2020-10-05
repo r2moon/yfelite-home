@@ -33,14 +33,14 @@ export default function Navigation() {
             <div
                 className="col-lg-5 col-xl-5  col-md-12 col-12 d-flex justify-content-lg-end justify-content-center mt-lg-0 mt-md-4 mt-4">
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a target={'_blank'} href="https://app.yfelite.finance/" className='btn mt-lg-0 btn-1 font-weight-bold mx-2  btn-width'>
+                <button href="#" className='btn mt-lg-0 btn-1 btn-disabled font-weight-bold mx-2  btn-width'>
                     Launch App V1
-                </a>
+                </button>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a target={'_blank'} href="https://app.uniswap.org/#/swap?outputCurrency=0x61B10135639885E00bf4D42dE2fE5F2E28abAd75"
-                   className='btn mt-lg-0 btn-2 font-weight-bold text-white  mx-1 btn-width'>
+                <button href="#"
+                   className='btn mt-lg-0 btn-2 btn-disabled font-weight-bold text-white  mx-1 btn-width'>
                     Buy Token
-                </a>
+                </button>
             </div>
 
         </div>

@@ -103,6 +103,6 @@ body {
     width: 18%;
 }
 
-
-
-
+.btn-disabled {
+    opacity: 0.7;
+}
