@@ -33,12 +33,12 @@ export default function Navigation() {
             <div
                 className="col-lg-5 col-xl-5  col-md-12 col-12 d-flex justify-content-lg-end justify-content-center mt-lg-0 mt-md-4 mt-4">
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <button href="#" className='btn mt-lg-0 btn-1 btn-disabled font-weight-bold mx-2  btn-width'>
+                <button href="https://app.defielite.finance" target="__blank" className='btn mt-lg-0 btn-1 font-weight-bold mx-2  btn-width'>
                     Launch App V1
                 </button>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <button href="#"
-                   className='btn mt-lg-0 btn-2 btn-disabled font-weight-bold text-white  mx-1 btn-width'>
+                <button href="https://app.uniswap.org/#/swap" target="__blank"
+                   className='btn mt-lg-0 btn-2 font-weight-bold text-white  mx-1 btn-width'>
                     Buy Token
                 </button>
             </div>
