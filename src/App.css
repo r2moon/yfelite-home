@@ -85,9 +85,8 @@ body {
     src: local('Myriad Pro Bold Condensed Italic'), url('./fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
 }
 
-
 .body-content {
-    margin-top: 225px;
+    margin-top: 150px;
 }
 
 .copy-right-margin {

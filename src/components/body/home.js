@@ -2,6 +2,7 @@ import React from "react";
 import hotbit from '../../images/hotbit-logo.png'
 import bilaxy from '../../images/bilaxy-logo-1.png'
 import uniswapicon from '../../images/uniswap-icon.svg'
+import logo from '../../images/logo.png'
 import uniswap from '../../images/uniswap-logo.svg'
 import digifinex from '../../images/digifinex-logo.svg'
 import '../../App.css'
@@ -11,10 +12,11 @@ import CountDown from "./countdown";
 export default function Body() {
     return (
         <div className='row d-flex flex-row-reverse body-content'>
-                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
-                    <CountDown/>
+                <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 row d-flex align-items-center justify-content-center ">
+                    <img src={logo} />
+                    {/* <CountDown/> */}
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-white mt-lg-0 mt-md-5 mt-5">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-white mt-lg-0 mt-md-5 mt-5 pt-5">
                     <h4 className='font-weight-bold heading'>The Next Great Community Yield Farm: YFElite</h4>
                     <div className="mt-lg-4 text-justify">
                         <p>Most yield farms have set pools with no community involvement, YFElite will be a community
