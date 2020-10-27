@@ -37,7 +37,7 @@ export default function Navigation() {
                     Launch App V1
                 </a>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a href="https://app.uniswap.org/#/swap" target="__blank"
+                <a href="https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x61B10135639885E00bf4D42dE2fE5F2E28abAd75" target="__blank"
                    className='btn mt-lg-0 btn-2 font-weight-bold text-white  mx-1 btn-width'>
                     Buy Token
                 </a>

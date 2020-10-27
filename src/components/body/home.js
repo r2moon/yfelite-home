@@ -41,7 +41,7 @@ export default function Body() {
                             </div> */}
                             <div className="col-3">
                                 {/* eslint-disable-next-line react/jsx-no-target-blank */}
-                                <a href="#" className="d-inline-flex btn-disabled">
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x61B10135639885E00bf4D42dE2fE5F2E28abAd75" target="__blank" className="d-inline-flex">
                                     <img src={uniswapicon} className='img-fluid unicornLogo' alt="Uniswap Icon"/>
                                     <img src={uniswap} className='img-fluid h-50 w-75 ml-1 mt-2' alt="Uniswap"/>
                                 </a>
